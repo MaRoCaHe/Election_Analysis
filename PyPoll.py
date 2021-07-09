@@ -51,7 +51,7 @@ with open(file_to_save, "w") as txt_file:
         f"\nElection Results\n"
         f"-------------------------\n"
         f"Total Votes: {total_votes:,}\n"
-        f"-------------------------\n")
+        f"-------------------------\n\n")
     print(election_results, end="")
 
     # Save the final vote count to the text file.
@@ -111,24 +111,3 @@ with open(file_to_save, "w") as txt_file:
 
 
 
- # Create a filename variable to a direct or indirect path to the file.
-# file_to_save = os.path.join("analysis", "election_analysis.txt")
-# # Using the open() function with the "w" mode we will write data to the file.
-# open(file_to_save, "w")
-
-# # Create a filename variable to a direct or indirect path to the file.
-# file_to_save = os.path.join("analysis", "election_analysis.txt")
-
-# # Using the with statement open the file as a text file.
-# with open(file_to_save, "w") as txt_file:
-
-#     # Write some data to the file.
-#  txt_file.write("Counties in the Election\n----------------------------\nArapahoe\nDenver\nJefferson")
-
-
-
-# 1. Open the data file.
-# 2. Write down the names of all the candidates.
-# 3. Add a vote count for each candidate.
-# 4. Get the total votes for each candidate.
-# 5. Get the total votes cast for the election.
